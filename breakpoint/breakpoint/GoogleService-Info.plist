@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1082653992369-306ba28t1ggpnpfdh1o8h0rl8vu8ptql.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1082653992369-306ba28t1ggpnpfdh1o8h0rl8vu8ptql</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCmPrq7sBGGEMyNFA_MQYo0nANWIo5he_s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1082653992369</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>TrinhThai.breakpoint</string>
+	<key>PROJECT_ID</key>
+	<string>breakpoint-41ba7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>breakpoint-41ba7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1082653992369:ios:70f21d4449cf15c7aa0990</string>
+	<key>DATABASE_URL</key>
+	<string>https://breakpoint-41ba7.firebaseio.com</string>
+</dict>
+</plist>
