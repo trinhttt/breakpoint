@@ -9,6 +9,7 @@
 import Foundation
 import Firebase
 
+
 let DB_BASE = Database.database().reference()
 
 class DataService {
@@ -31,6 +32,7 @@ class DataService {
     }
     
     func createDBUser(uid: String, userData: Dictionary<String, Any>) {
+        // To have read/write permission => Create Database => Choose "Realtime Database" => Choose "Rules" => Edit false -> true
         REF_USERS.child(uid).updateChildValues(userData)
     }
 }

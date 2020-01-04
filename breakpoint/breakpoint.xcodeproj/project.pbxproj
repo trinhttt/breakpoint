@@ -21,6 +21,7 @@
 		F06320E623C03F55006DDA79 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06320E523C03F55006DDA79 /* LoginVC.swift */; };
 		F06320E823C03F70006DDA79 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06320E723C03F70006DDA79 /* InsetTextField.swift */; };
 		F06320EA23C04906006DDA79 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06320E923C04906006DDA79 /* ShadowView.swift */; };
+		F06320EC23C05238006DDA79 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06320EB23C05238006DDA79 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F06320E523C03F55006DDA79 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F06320E723C03F70006DDA79 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		F06320E923C04906006DDA79 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		F06320EB23C05238006DDA79 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				0E9239E223B74F3C001CF576 /* DataService.swift */,
+				F06320EB23C05238006DDA79 /* AuthService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				F06320E823C03F70006DDA79 /* InsetTextField.swift in Sources */,
 				0E9239CA23B70152001CF576 /* FirstViewController.swift in Sources */,
 				0E9239C623B70152001CF576 /* AppDelegate.swift in Sources */,
+				F06320EC23C05238006DDA79 /* AuthService.swift in Sources */,
 				0E9239C823B70152001CF576 /* SceneDelegate.swift in Sources */,
 				0E9239E323B74F3C001CF576 /* DataService.swift in Sources */,
 			);
