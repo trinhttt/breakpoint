@@ -25,6 +25,7 @@
 		F06320EC23C05238006DDA79 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06320EB23C05238006DDA79 /* AuthService.swift */; };
 		F0761BAF23C3271200336012 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761BAE23C3271200336012 /* CreatePostVC.swift */; };
 		F0761BB123C333D200336012 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761BB023C333D200336012 /* UIViewExt.swift */; };
+		F0761BB423C33D4A00336012 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761BB323C33D4A00336012 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		F06320EB23C05238006DDA79 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		F0761BAE23C3271200336012 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		F0761BB023C333D200336012 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		F0761BB323C33D4A00336012 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		0E9239DC23B701C6001CF576 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F0761BB223C33D2800336012 /* Cell */,
 				F06320E723C03F70006DDA79 /* InsetTextField.swift */,
 				F06320E923C04906006DDA79 /* ShadowView.swift */,
 			);
@@ -162,6 +165,14 @@
 				5A43F35AA2F7BD9C9017D4A0 /* Pods-breakpoint.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0761BB223C33D2800336012 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F0761BB323C33D4A00336012 /* FeedCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 				F06320E623C03F55006DDA79 /* LoginVC.swift in Sources */,
 				F06320E823C03F70006DDA79 /* InsetTextField.swift in Sources */,
 				0E9239CA23B70152001CF576 /* FeedVC.swift in Sources */,
+				F0761BB423C33D4A00336012 /* FeedCell.swift in Sources */,
 				0E9239C623B70152001CF576 /* AppDelegate.swift in Sources */,
 				0EDC0CF723C2428F009B21BD /* MeVC.swift in Sources */,
 				F0761BAF23C3271200336012 /* CreatePostVC.swift in Sources */,
