@@ -35,4 +35,13 @@ class DataService {
         // To have read/write permission => Create Database => Choose "Realtime Database" => Choose "Rules" => Edit false -> true
         REF_USERS.child(uid).updateChildValues(userData)
     }
+    
+    func uploadPost(withMessage message: String, forUID uid: String, withGroupKey groupKey: String?, sendComplete: @escaping (_ status: Bool) -> ()) {
+        if groupKey != nil {
+            // send to groups ref
+        } else {
+            _REF_FEED.childByAutoId().updateChildValues(["content": message, "senderId": uid])
+            sendComplete(true)
+        }
+    }
 }
